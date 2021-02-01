@@ -10,8 +10,4 @@ public class Menu {
     {
         buttons = new String[5];
     }
-
-    public String[] getButtons() {
-        return this.buttons;
-    }
 }
