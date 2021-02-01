@@ -8,5 +8,5 @@ public class Hero {
         this.damage = damage;
     }
 
-    public void setDamage(double damage) {this.damage = damage;}
+    public void setDamage(double damage) {this.damage = damage * 2;}
 }
