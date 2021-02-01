@@ -2,7 +2,11 @@ package com.production;
 
 public class Hero {
 
-    public Hero() {
+    private double damage;
 
+    public Hero(double damage) {
+        this.damage = damage;
     }
+
+    public void setDamage(double damage) {this.damage = damage;}
 }
